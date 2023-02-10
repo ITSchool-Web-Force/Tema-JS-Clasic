@@ -15,3 +15,25 @@
      1: IS
 */
 
+let calificativ = function (parametru) {
+  if (parametru <= 4) {
+    return "IS";
+  }
+  if (parametru == 5 || parametru == 6) {
+    return "S";
+  }
+  if (parametru == 7 || parametru == 8) {
+    return "B";
+  } else return "FB";
+};
+
+console.log(calificativ(1));
+console.log(calificativ(2));
+console.log(calificativ(3));
+console.log(calificativ(4));
+console.log(calificativ(5));
+console.log(calificativ(6));
+console.log(calificativ(7));
+console.log(calificativ(8));
+console.log(calificativ(9));
+console.log(calificativ(10));
