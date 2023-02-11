@@ -15,3 +15,43 @@
      1: IS
 */
 
+for (let i = 10; i >0; i-- )
+    {
+    if (i > 8 ) 
+        { 
+        console.log( "FB");
+        }
+    else if (i > 6 ) 
+        {
+        console.log("B");
+        }
+    else if (i > 4) 
+        {
+        console.log("S"); 
+        }
+    else 
+        {
+        console.log("IS")
+        }
+}
+
+// varianta 2 
+
+for (let i = 10; i > 0; i--) {
+switch (i) {
+    case 10:
+    case 9:
+        console.log("FB");
+        break;
+    case 8:
+    case 7:
+        console.log("B");
+        break;
+    case 6:
+    case 5:
+        console.log("S");
+        break;
+    default:
+        console.log("IS");
+    }
+}
