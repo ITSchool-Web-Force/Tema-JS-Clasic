@@ -15,3 +15,22 @@
      1: IS
 */
 
+function num(i) {
+  let result;
+    if (i > 0) {
+      result = 'IS';
+    } 
+    if (i > 4) {
+        result = 'S';
+      }
+      if (i > 6) {
+        result = 'B';
+      }
+      if (i > 8) {
+        result = 'FB';
+      }
+      return result;
+  }
+  
+  console.log("Calificativul obtinut este:",num(9));
+
