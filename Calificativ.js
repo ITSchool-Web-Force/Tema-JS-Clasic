@@ -21,16 +21,16 @@ function num(i) {
       result = 'IS';
     } 
     if (i > 4) {
-        result = 'S';
-      }
-      if (i > 6) {
-        result = 'B';
-      }
-      if (i > 8) {
-        result = 'FB';
-      }
+      result = 'S';
+    }
+    if (i > 6) {
+      result = 'B';
+    }
+    if (i > 8) {
+      result = 'FB';
+    }
       return result;
-  }
+}
   
-  console.log("Calificativul obtinut este:",num(9));
+console.log("Calificativul obtinut este:",num(9));
 
