@@ -15,3 +15,18 @@
      1: IS
 */
 
+function calificativ() {
+  if (input == 9 || input == 10) {
+    console.log("Foarte bine");
+  } else if (input == 8 || input == 7) {
+    console.log("Bine");
+  } else if (input == 6 || input == 5) {
+    console.log("Suficient");
+  } else {
+    console.log("Insuficient");
+  }
+}
+
+calificativ();
+
+// daca mai trebuie sa fac alta varianta si sa incerc ceva mai simplu, sa mi spui am incercat ceva diferit aici
