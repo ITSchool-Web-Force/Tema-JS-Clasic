@@ -14,6 +14,7 @@
      2: IS
      1: IS
 */
+const input = prompt("Adauga o nota");
 
 function calificativ() {
   if (input == 9 || input == 10) {
