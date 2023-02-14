@@ -4,7 +4,7 @@
     Implementează metoda move() pentru a o face pe Miorița să se deplaseze în orice direcție
 */
 
-let miorita = {
+const miorita = {
     x: 0,
     y: 0,
     move: function(moveX, moveY) {
