@@ -14,4 +14,24 @@
      2: IS
      1: IS
 */
+function getCalificative(grade) {
+    let calificative;
+    
+    if (grade >= 9) {
+      calificative = 'FB';
+    }
+    else if (grade >= 7) {
+      calificative = 'B';
+    }
+    else if (grade >= 5) {
+      calificative = 'S';
+    }
+    else {
+      calificative = 'IS';
+    }
+    
+    return calificative;
+  };
 
+let finalCalificative = getCalificative(9);
+console.log(finalCalificative);
