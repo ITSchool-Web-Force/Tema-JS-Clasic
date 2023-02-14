@@ -26,7 +26,7 @@ function calificative(nota) {
         return("S");
     }
     else {
-        return("IS") 
+        return("IS");
     } 
 }
 
