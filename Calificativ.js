@@ -15,43 +15,19 @@
      1: IS
 */
 
-for (let i = 10; i >0; i-- )
-    {
-    if (i > 8 ) 
-        { 
-        console.log( "FB");
-        }
-    else if (i > 6 ) 
-        {
-        console.log("B");
-        }
-    else if (i > 4) 
-        {
-        console.log("S"); 
-        }
-    else 
-        {
-        console.log("IS")
-        }
-}
-
-// varianta 2 
-
-for (let i = 10; i > 0; i--) {
-switch (i) {
-    case 10:
-    case 9:
-        console.log("FB");
-        break;
-    case 8:
-    case 7:
-        console.log("B");
-        break;
-    case 6:
-    case 5:
-        console.log("S");
-        break;
-    default:
-        console.log("IS");
+function calificative(nota) {
+    if (nota > 8 && nota <11) {
+        return("FB");
     }
+    else if (nota > 6 && nota < 9) {
+        return("B");
+    }
+    else if (nota > 4 && nota <7) {
+        return("S");
+    }
+    else {
+        return("IS") 
+    } 
 }
+
+
