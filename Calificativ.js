@@ -16,21 +16,18 @@
 */
 
 
-const miorita = {
-    x: 0,
-    y: 0,
-    move: function(moveX, moveY) {
-        miorita.x += moveX;
-        miorita.y +=  moveY;
+function calificative(nota) {
+    if (nota > 8 && nota <11) {
+        return("FB");
     }
-};
-    
-miorita.move(1, 3);
-console.log(miorita.x, miorita.y);
-// 1 3
-
-miorita.move(1, -4);
-console.log(miorita.x, miorita.y);
-// 2 -1
-miorita.move(5, 10);
-console.log(miorita.x, miorita.y);
+    else if (nota > 6 && nota < 9 ) {
+        return("B");
+    }
+    else if (nota > 4 && nota < 7 ) {
+        return("S");
+    }
+    else if (nota > 0 && nota < 5 ) {
+        return("IS");
+    } 
+    else return ("Calificativul nu a fost gasit")
+}
