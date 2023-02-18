@@ -47,12 +47,15 @@ function num(i) {
     else if (i >= 7 & i <= 8) {
       result = 'B';
     }
-    else (i >= 9 & i < 11); {
+    else if (i >= 9 & i < 11) {
       result = 'FB';
+    }
+    else {
+      result = 'ai introdus o valoare gresita';
     }
     return result;
 }
   
-console.log("Calificativul obtinut este:",num(7));
+console.log("Calificativul obtinut este:",num(8));
 
 
