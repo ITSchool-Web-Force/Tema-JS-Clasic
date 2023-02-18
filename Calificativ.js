@@ -47,7 +47,7 @@ function num(i) {
     else if (i >= 7 & i <= 8) {
       result = 'B';
     }
-    if (i >= 9) {
+    else (i >= 9) {
       result = 'FB';
     }
     return result;
