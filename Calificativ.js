@@ -14,9 +14,9 @@
      2: IS
      1: IS
 */
-
+/* versiunea 1
 function num(i) {
-  let result;
+    let result;
     if (i > 0) {
       result = 'IS';
     } 
@@ -29,8 +29,30 @@ function num(i) {
     if (i > 8) {
       result = 'FB';
     }
-      return result;
+    return result;
 }
   
 console.log("Calificativul obtinut este:",num(9));
+*/
+
+// versiunea 2
+function num(i) {
+    let result;
+    if (i <= 4) {
+      result = 'IS';
+    } 
+    else if (i > 4 & i < 7) {
+      result = 'S';
+    }
+    else if (i >= 7 & i <= 8) {
+      result = 'B';
+    }
+    if (i >= 9) {
+      result = 'FB';
+    }
+    return result;
+}
+  
+console.log("Calificativul obtinut este:",num(7));
+
 
