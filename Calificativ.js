@@ -15,16 +15,16 @@
      1: IS
 */
 
-let calificativ = function (parametru) {
-  if (parametru <= 4) {
+let calificativ = function (nota) {
+  if (nota < 5) {
     return "IS";
   }
-  if (parametru == 5 || parametru == 6) {
+  if (nota < 7) {
     return "S";
   }
-  if (parametru == 7 || parametru == 8) {
+  if (nota < 9) {
     return "B";
-  } else return "FB";
+  } return "FB";
 };
 
 console.log(calificativ(1));
