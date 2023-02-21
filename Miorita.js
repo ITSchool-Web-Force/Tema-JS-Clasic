@@ -5,11 +5,12 @@
 */
 
 const miorita = {
-    x: 0,
-    y: 0,
-    move: function(moveX, moveY) {
-
-    }
+  x: 0,
+  y: 0,
+  move: function (moveX, moveY) {
+    this.x += moveX;
+    this.y += moveY;
+  },
 };
 
 miorita.move(1, 3);
