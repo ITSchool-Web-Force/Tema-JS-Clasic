@@ -14,4 +14,16 @@
      2: IS
      1: IS
 */
-
+ function calificativ(a) {
+    if(a > 8 && a <= 10) {
+        return "FB";
+    } else if(a > 6) {
+        return "B";
+    } else if(a > 4) {
+        return "S";
+    } else if(a > 1) {
+        return "IS";
+    } else {
+        return `${a} nu este valid`
+    }
+ }
