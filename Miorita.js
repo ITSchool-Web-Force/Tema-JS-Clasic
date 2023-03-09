@@ -8,8 +8,8 @@ const miorita = {
     x: 0,
     y: 0,
     move: function(moveX, moveY) {
-    x=x+moveX;
-    y=y+moveY;
+    this.x += moveX;
+    this.y += moveY;
     }
 };
 
