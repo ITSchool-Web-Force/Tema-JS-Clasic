@@ -8,7 +8,8 @@ const miorita = {
     x: 0,
     y: 0,
     move: function(moveX, moveY) {
-
+    this.x += moveX;
+    this.y += moveY;
     }
 };
 
@@ -19,3 +20,4 @@ console.log(miorita.x, miorita.y);
 miorita.move(1, -4);
 console.log(miorita.x, miorita.y);
 // 2 -1
+

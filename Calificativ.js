@@ -15,3 +15,24 @@
      1: IS
 */
 
+function Note (nota) {
+
+    if (nota<1 || nota>10){
+        return "error"
+    }
+    
+    if (nota==10 || nota==9){
+        return "FB"
+    }
+
+    if (nota==8 || nota==7){
+        return "B"
+    }
+
+    if (nota==6 || nota==5){
+        return "S"
+    }
+    
+    return "IS"
+
+}
